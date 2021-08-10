@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+li {
+    list-style: none;
+    font-size: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.nav-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding-right: 30px;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.nav-upper a {
+    padding-left: 30px;
+}
+
+.main-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-search-container {
+    border: 0.5px #dfe1e5 solid;
+    border-radius: 24px;
+    width: 580px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-search-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.fa-search {
+    padding-left: 15px;
+}
+
+.fa-microphone {
+    padding-right: 15px;
+}
+
+.input-box {
+    width: 500px;
+    height: 27px;
+    border: none;
+    outline: none;
+}
+
+.buttons {}
+
+.label-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgb(236, 229, 229);
+    height: 40px;
+}
+
+.label {
+    display: flex;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, .54);
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+.nav-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+
+
+}
+
+.lower-left-nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.lower-right-nav {
+    display: flex;
+        width: 30%;
+        justify-content: space-between;
+        padding-left: 30px;
+        align-items: center;
+}
+
+.nav-lower a {
+    font-size: 16px;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+}
+
+
